@@ -1,12 +1,17 @@
 # falabella
-Instalación: Se debe colocar este programa en un directorio desde donde se pueda ejecutar PHP.
+Instalación: 
+    * Es necesario tener instalado composer, en caso de no tener seguir el tutorial de instalación en la página oficial: https://getcomposer.org/
 
-Ejecución: Ejecutar en la raíz del directorio "php index.php"
+    * Ejecutar "composer update" para descargar las librerías oportunas.
 
-Testing: Ejecutar en la raíz del directorio ".\vendor\bin\phpunit tests"
+    * Ejecutar "composer dump-autoload -o" para habilitar el cargado automático de las clases.
+
+Ejecución: Ejecutar en la raíz del directorio "php index.php".
+
+Testing: Ejecutar en la raíz del directorio ".\vendor\bin\phpunit tests".
 
 Consideraciones: 
 
-1) La clase "Falabella" se encuentra en el directorio "src".
+    * La clase "Falabella" se encuentra en el directorio "src".
 
-2) Las pruebas unitarias fueron realizadas con PHPUnit, las mismas se encuentran en el directorio "test".
+    * Las pruebas unitarias fueron realizadas con PHPUnit, las mismas se encuentran en el directorio "test".
